@@ -5,7 +5,7 @@
 int 
 main()
 {
-    // construct a program with the given constructors
+    // construct the expression (1 + (2 * -2))
     node_t* node = node_binop_addition_create(
         node_intlit_create(1),
         node_binop_multiplication_create(
